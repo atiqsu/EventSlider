@@ -1,0 +1,158 @@
+body {
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.sliderContainer {
+    width: 640px;
+    height: 380px;
+    overflow: hidden;
+    position: relative;
+    background-color: Black;
+
+    /* generated box shadow */
+    -webkit-box-shadow: 10px 10px 10px -9px rgba(0,0,0,0.9);
+    -moz-box-shadow: 10px 10px 10px -9px rgba(0,0,0,0.9);
+    box-shadow: 10px 10px 10px -9px rgba(0,0,0,0.9);
+    /* end */
+
+    /* generated border radius */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    /* end */
+}
+
+
+#leftButtonCont, #rightButtonCont {
+    position: absolute;
+    width: 68px;
+    height: 380px;
+    z-index: 1000;
+
+}
+#leftButtonCont { left: 0; }
+
+#rightButtonCont { right: 0; }
+
+#leftButton, #rightButton {
+    height: 64px;
+    width: 64px;
+    margin: 158px 0px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 54px;
+    background: transparent;
+
+    background-color: #000;
+
+    /* IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+
+    /* IE 5-7 */
+    filter: alpha(opacity=50);
+
+    /* Netscape */
+    -moz-opacity: 0.5;
+
+    /* Safari 1.x */
+    -khtml-opacity: 0.5;
+
+    /* Good browsers */
+    opacity: 0.5;
+
+    -webkit-box-shadow: 0px 0px 25px 20px #000;
+    -moz-box-shadow: 0px 0px 25px 20px #000;
+    box-shadow: 0px 0px 25px 20px #000;
+}
+
+.title {
+    z-index: 100;
+    width: 100%;
+    position: absolute;
+    height: 45px;
+    background-image: url("http://cte.spokaneschools.org/resources/images/newSlider/titleBar.png");
+    background-repeat: no-repeat;
+}
+
+#titleContent {
+    text-align: left;
+    width: 100%;
+    overflow: hidden;
+    height: 40px;
+    padding-left: 30px;
+}
+
+p.sliderTitle {
+    font-size: 20px;
+    color: #FFFFFF;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 6px;
+    margin-bottom: 0px;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+
+.sliderImg {
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.caption {
+    z-index: 100;
+    bottom: -130px;
+    width: 100%;
+    position: absolute;
+    height: 130px;
+    opacity: 0.75; /* browsers */
+    filter: alpha(opacity=75); /* IE */
+}
+
+#captionBar {
+    height: 15px;
+    width: 100%;
+    background-image: url("http://cte.spokaneschools.org/resources/images/newSlider/captionBar.png");
+    background-repeat: no-repeat;
+}
+
+#captionContent {
+    text-align: left;
+    width: 100%;
+    overflow: hidden; /* This could be changed to auto */
+    height: 115px;
+    background-color: #000;
+}
+
+p.sliderTxt {
+    font-size: 17px;
+    color: #FFF;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 5px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+a:link { color:#11CBFF; }
+a:visited { color:#39A2BF; }
+a:hover { color:#4DD8FF; }
+a:active { color:#7CE2FF; }
+
+.sliderTooltip {
+    background: Black !important;
+    color: White !important;
+    border-width: 0px !important;
+    padding: 4px !important;
+    font-family: Arial,Helvetica,sans-serif !important;
+    font-size: 16px !important;
+
+    -webkit-border-radius: 1px !important;
+    -moz-border-radius: 1px !important;
+    border-radius: 1px !important;
+
+    opacity: 0.75 !important; /* browsers */
+    filter: alpha(opacity=75) !important; /* IE */
+}
