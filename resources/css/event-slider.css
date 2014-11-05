@@ -72,7 +72,7 @@ body {
     width: 100%;
     position: absolute;
     height: 45px;
-    background-image: url("http://cte.spokaneschools.org/resources/images/newSlider/titleBar.png");
+    background-image: url("resources/images/title-bar.png");
     background-repeat: no-repeat;
 }
 
@@ -115,7 +115,7 @@ p.sliderTitle {
 #captionBar {
     height: 15px;
     width: 100%;
-    background-image: url("http://cte.spokaneschools.org/resources/images/newSlider/captionBar.png");
+    background-image: url("resources/images/caption-bar.png");
     background-repeat: no-repeat;
 }
 
