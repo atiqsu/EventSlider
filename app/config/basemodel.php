@@ -1,4 +1,4 @@
-<?php
+<?php //defined('SYSPATH') or die('No direct script access.');
 /*
  * NOTE: model classes could also extend from a base class of its own. It won't be necessary for all model classes,
  * but in some projects most of your models may need something in common, like database access

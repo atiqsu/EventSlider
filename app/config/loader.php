@@ -1,4 +1,5 @@
-<?php
+<?php //defined('SYSPATH') or die('No direct script access.');
+
 class Loader {
     private $controller;
     private $action;

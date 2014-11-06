@@ -1,4 +1,5 @@
-<?php
+<?php //defined('SYSPATH') or die('No direct script access.');
+
 abstract class BaseController {
     protected $urlvalues;
     protected $action;
@@ -14,10 +15,6 @@ abstract class BaseController {
 
     protected function ReturnView($viewmodel, $fullview) {
         $viewloc = 'views/' . get_class($this) . '/' . $this->action . '.php';
-        if ($fullview) {
-            require('views/common/maintemplate.php');
-        } else {
-            require($viewloc);
-        }
+        require($viewloc);
     }
 }
